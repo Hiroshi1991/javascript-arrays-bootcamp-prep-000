@@ -75,6 +75,7 @@ function removeElementFromEndOfArray(array) {
 function accessElementInArray(array, index) {
   return array[index]
 }
+
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop(...array);
   return array
