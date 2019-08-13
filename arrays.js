@@ -40,6 +40,3 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array(2,3)
-}
