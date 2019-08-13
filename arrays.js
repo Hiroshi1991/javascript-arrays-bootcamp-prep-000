@@ -40,5 +40,6 @@ function accessElementInArray(array, index) {
   return array[index]
 }
 
-
-}
+function removeElementFromBeginningOfArray(array) {
+  var newArray = array.slice(1);
+  return newArray
