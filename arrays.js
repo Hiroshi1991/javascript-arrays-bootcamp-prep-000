@@ -41,6 +41,6 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.pop()
+  array.pop(3)
   return array
 }
