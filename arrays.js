@@ -40,7 +40,5 @@ function accessElementInArray(array, index) {
   return array[index]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-  var array(1,2,3)
-  return array.pop()
+
 }
